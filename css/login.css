@@ -1,0 +1,58 @@
+.login-box{
+
+    /*background-color: brown;*/
+    margin: 150px auto;
+    width: 400px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+.login-box input{
+
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.login-box input[type=submit]{
+
+    padding: 10px;
+    border-color: #f0f0f0;
+    background-color: #383e65;
+    color: #FFFFFF;
+    transition: .3s;
+}
+
+.login-box input[type=submit]:hover{
+
+    background-color: #f0f0f0;
+    border-color: #383e65;
+    color: #383e65;
+    transition: .3s;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+
+    .login-box{
+
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .login-box{
+
+        width: 100%;
+        padding: 0px 40px;
+        margin: 100px auto;
+    }
+}
